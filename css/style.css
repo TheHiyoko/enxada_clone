@@ -1,0 +1,169 @@
+     /*global config*/
+     
+     * {
+         margin: 0;
+         padding: 0;
+     }
+     /* gradient */
+     
+     body {
+         background-image: linear-gradient(45deg, #810065, #5C0081);
+     }
+     /* list color */
+     
+     a {
+         color: #ffff;
+         text-decoration: none;
+         transition: 0.3s;
+     }
+     
+     a hover {
+         opacity: 0.7;
+     }
+     /* logo style */
+     
+     .logo {
+         font-size: 24px;
+         text-transform: uppercase;
+         letter-spacing: 4px;
+     }
+     /* nav config */
+     
+     nav {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+         background: transparent;
+         height: 12vh;
+     }
+     
+     #nav-int {
+         padding: 0px 3%;
+     }
+     
+     .nav-list {
+         list-style: none;
+         font-size: 12px;
+     }
+     
+     .nav-list li {
+         justify-content: space-around;
+         display: inline-block;
+         margin-left: 16px;
+     }
+     /* nav config end */
+     /* fist boxx */
+     
+     main {
+         font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+         color: #ffff;
+         text-transform: uppercase;
+     }
+     /* text ajustment */
+     
+     .better {
+         font-size: 6vh;
+     }
+     
+     #desc {
+         font-size: 10vh;
+     }
+     
+     .disc {
+         font-size: 3vh;
+     }
+     /* text ajustement end */
+     /* first box */
+     
+     #home {
+         margin-bottom: 5%;
+         padding: 11% 2% 11%;
+     }
+     
+     #home-button {
+         font-size: 22px;
+         font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+         text-transform: uppercase;
+         padding: 1.5% 2.5%;
+         margin: 2%;
+         border: none;
+         border-radius: 5%;
+         color: #ffff;
+         background: #9c007b;
+     }
+     /* first box end */
+     /* about */
+     
+     #about {
+         background-image: linear-gradient(90deg, #320575, #051075);
+         padding: 13% 35%;
+         padding-bottom: 1px;
+         font-size: 22 px;
+         text-align: center;
+     }
+     
+     #programing {
+         display: flex;
+         justify-content: center;
+     }
+     
+     #programing img {
+        height: 600px;
+        width: 150%;
+     }
+     /* about end */
+     /* advantages */
+     #advantages {
+         background-color: #ffff;
+         font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+         color: black;
+         padding: 50px;
+         font-size: 18px;
+         text-align: center;
+         text-transform: uppercase;
+     }
+     #advantages button{
+         font-size:22px ;
+         text-transform: uppercase;
+         color: #ffff;
+         font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+         border-radius: 3%;
+         border: none;
+         background-color: #051075;
+         margin: 2%;
+         padding: 1% 2%;
+     }
+     /* advantages title end */
+     /* topics */
+     img{
+        display: flex;
+        height: 300px;
+        padding: 3%;
+        margin-left: 20%;
+     }
+     img :right{
+        justify-content: flex-start;
+        height: 00px;
+     }
+     .title{
+        display: flex;
+        align-items: flex-end;
+        text-align: left;
+        display: inline-block;
+        padding-bottom: 5px;
+        border-bottom: 1px #2e2e2e;
+        color: #a8a8a8;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+     }
+     .text{
+        margin-bottom: 10px;
+        color: black;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 5%;
+        padding-right: 10%;
+     }
+     
